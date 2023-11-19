@@ -1,0 +1,2 @@
+# MoneyMinder
+Software Engineering project
