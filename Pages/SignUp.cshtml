@@ -1,0 +1,48 @@
+﻿@page
+@model MoneyMinder.Pages.SignUpModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "_Layout";
+}
+
+<div class="p-3 mb-2 bg-white text-dark">
+
+    <center>
+        <h1>Create new Account</h1>
+        <h5>Already a MoneyMinder? Login</h5>
+        <br><br>
+
+        <div class="row mb-3">
+            <label for="NAME" class="col-sm-2 col-form-label">NAME</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="NAME" placeholder="FirstName LastName">
+            </div>
+        </div> <br>
+
+        <div class="row mb-3">
+            <label for="EMAIL" class="col-sm-2 col-form-label">EMAIL</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="EMAIL" placeholder="user@email.com">
+            </div>
+        </div><br>
+
+        <div class="row mb-3">
+            <label for="inputPassword" class="col-sm-2 col-form-label">PASSWORD</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="********">
+            </div>
+        </div><br>
+
+        <div class="row mb-3">
+            <label for="doBirth" class="col-sm-2 col-form-label">DATE OF BIRTH</label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control" id="doBirth" placeholder="DD/MM/YYYY">
+            </div>
+        </div><br>
+
+        <button type="button" class="btn btn-dark">sign up</button>
+
+    </center>
+
+
+</div>
